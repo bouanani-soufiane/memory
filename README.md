@@ -1,59 +1,34 @@
-# MemoryGame
+# Memory Game
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+A classic memory game built with Angular where players replicate a sequence of colors. Each level adds complexity by increasing the sequence length.
 
-## Development server
+## How to Play
+1. **Start the Game**: Click "Start" to display a color sequence for 15 seconds.
+2. **Reproduce the Sequence**: Click the buttons in the displayed order.
+3. **Submit or Reset**: Use "Submit" to validate your choice or "Reset" to try again.
+4. **Score & Levels**: Gain points based on speed and accuracy. Advance to higher levels as sequences grow longer.
+5. **Game Over**: A wrong choice ends the game, showing the final score.
 
-To start a local development server, run:
+## Features
+- Randomized sequence generation
+- Score and level tracking
+- Responsive UI with interactive animations
+- Modular structure using Angular components and services
 
-```bash
-ng serve
-```
+## Technologies
+- **Angular 18**
+- TypeScript
+- HTML5 / CSS3
+- @angular/animations
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Installation
+1. Clone the repository:  
+   `git clone <repository-url>`
+2. Navigate to the project folder:  
+   `cd <project-folder>`
+3. Install dependencies:  
+   `npm install`
+4. Start the app:  
+   `ng serve`
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Enjoy the challenge of memory training!
